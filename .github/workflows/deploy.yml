@@ -28,8 +28,10 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Copy index.html to 404.html
-        run: cp dist/index.html dist/404.html
+      # 🔹 Ensure SPA routes work on GitHub Pages
+      - name: Add 404 redirect
+        run: |
+          echo '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Redirecting...</title><script>window.location.href="/carepredict-ai-insights/"</script></head><body></body></html>' > dist/404.html
 
       - name: Upload dist folder
         uses: actions/upload-pages-artifact@v3
