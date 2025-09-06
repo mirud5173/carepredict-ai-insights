@@ -6,8 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // 👇 Add this line for GitHub Pages
-  base: mode === "production" ? "/carepredict-ai-insights/" : "/",
-
+  base: mode === "production" ? "/carepredict-ai-insights-main/" : "/",
   server: {
     host: "::",
     port: 8080,
