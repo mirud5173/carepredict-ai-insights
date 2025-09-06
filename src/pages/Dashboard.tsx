@@ -22,17 +22,17 @@ const Dashboard = () => {
   const [viewMode, setViewMode] = useState<"clinician" | "patient">("clinician");
 
   const patientData = {
-    name: "Sarah Johnson",
-    age: 67,
+    name: "Anumitha Asokan",
+    age: 73,
     id: "PT-2024-001",
-    riskLevel: "medium" as const,
-    confidence: 78,
+    riskLevel: "high" as const,
+    confidence: 93,
     nextAppointment: "2024-01-15",
     conditions: ["Type 2 Diabetes", "Hypertension", "Heart Disease"]
   };
 
   const vitals = [
-    { label: "Blood Pressure", value: "142/89", status: "high", icon: Heart, trend: "up" },
+    { label: "Blood Pressure", value: "234/89", status: "high", icon: Heart, trend: "up" },
     { label: "Heart Rate", value: "72 bpm", status: "normal", icon: Activity, trend: "stable" },
     { label: "Temperature", value: "98.6°F", status: "normal", icon: Thermometer, trend: "stable" },
     { label: "Blood Sugar", value: "165 mg/dL", status: "high", icon: Droplets, trend: "up" }
@@ -49,7 +49,7 @@ const Dashboard = () => {
     {
       priority: "high",
       title: "Schedule Cardiology Consult",
-      description: "BP readings consistently elevated. Recommend specialist review within 2 weeks.",
+      description: "BP readings consistently elevated. Recommend specialist review within 2 days.",
       icon: AlertTriangle
     },
     {
