@@ -32,7 +32,7 @@ const Index = () => {
       color: "bg-gradient-secondary"
     },
     {
-      icon: ArrowRight,
+      icon: TrendingUp,
       title: "Predictive Analytics",
       description: "90-day forecasting enables proactive intervention and personalized care plans.",
       color: "bg-gradient-success"
