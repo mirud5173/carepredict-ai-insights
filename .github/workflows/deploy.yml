@@ -28,7 +28,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # ✅ Add this step to fix SPA 404 issue
       - name: Copy index.html to 404.html
         run: cp dist/index.html dist/404.html
 
