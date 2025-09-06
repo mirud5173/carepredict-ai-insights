@@ -1,6 +1,7 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
+  "homepage": "https://mirud5173.github.io/carepredict-ai-insights-main",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
