@@ -4,20 +4,20 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  // 👇 Add this line for GitHub Pages
-  base: mode === "production" ? "/carepredict-ai-insights/" : "/",
+export default defineConfig({
+  // 🔹 Fixed base for GitHub Pages
+  base: "/carepredict-ai-insights/",
   server: {
     host: "::",
     port: 8080,
   },
   plugins: [
     react(),
-    mode === "development" && componentTagger(),
-  ].filter(Boolean),
+    componentTagger(),
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
+});
