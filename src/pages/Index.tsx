@@ -32,7 +32,7 @@ const Index = () => {
       color: "bg-gradient-secondary"
     },
     {
-      icon: TrendingUp,
+      icon: ArrowRight,
       title: "Predictive Analytics",
       description: "90-day forecasting enables proactive intervention and personalized care plans.",
       color: "bg-gradient-success"
@@ -79,12 +79,9 @@ const Index = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
-              <Badge className="bg-white/20 text-white border-white/30 mb-6 animate-fade-up">
-                🏆 Healthcare Innovation Hackathon 2024
-              </Badge>
               
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-up text-shadow">
-                CarePredict
+                MediPredict
                 <span className="block text-2xl lg:text-3xl font-medium text-white/90 mt-2">
                   AI Risk Engine for Chronic Care
                 </span>
@@ -175,7 +172,7 @@ const Index = () => {
                 Transforming Patient Outcomes
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                CarePredict leverages cutting-edge AI to deliver measurable improvements in 
+                MediPredict leverages cutting-edge AI to deliver measurable improvements in 
                 chronic care management, helping healthcare providers achieve better outcomes 
                 while reducing costs.
               </p>
