@@ -17,28 +17,28 @@ import {
 const About = () => {
   const teamMembers = [
     {
-      name: "Dr. Sarah Chen",
+      name: "Suhani Panda",
       role: "AI Research Lead",
       bio: "PhD in Machine Learning with 8+ years in healthcare AI",
       linkedin: "#",
       github: "#"
     },
     {
-      name: "Michael Rodriguez",
+      name: "Mirudhula",
       role: "Full-Stack Developer",
       bio: "Software engineer specializing in healthcare applications",
       linkedin: "#",
       github: "#"
     },
     {
-      name: "Dr. James Wilson",
+      name: "Ponn Oviyaa S",
       role: "Clinical Advisor",
       bio: "Cardiologist with expertise in chronic disease management",
       linkedin: "#",
       github: "#"
     },
     {
-      name: "Lisa Kim",
+      name: "Lasyasri Pabbisetty",
       role: "UX/UI Designer",
       bio: "Design specialist focused on healthcare user experiences",
       linkedin: "#",
@@ -85,7 +85,7 @@ const About = () => {
         <div className="w-20 h-20 bg-gradient-hero rounded-2xl flex items-center justify-center mx-auto mb-6 animate-pulse-glow">
           <Brain className="w-10 h-10 text-white" />
         </div>
-        <h1 className="text-4xl font-bold text-foreground mb-4">About CarePredict</h1>
+        <h1 className="text-4xl font-bold text-foreground mb-4">About MediPredict</h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
           Revolutionizing chronic care through AI-powered risk prediction and personalized healthcare insights.
         </p>
@@ -97,7 +97,7 @@ const About = () => {
           <div>
             <h2 className="text-2xl font-bold text-foreground mb-4">Our Mission</h2>
             <p className="text-muted-foreground mb-6">
-              CarePredict is an innovative AI Risk Engine designed to transform chronic care management. 
+              MediPredict is an innovative AI Risk Engine designed to transform chronic care management. 
               Built for the Healthcare Innovation Hackathon 2024, our platform leverages cutting-edge 
               machine learning to predict patient risks and provide actionable insights for both 
               clinicians and patients.
@@ -108,10 +108,6 @@ const About = () => {
               <Badge className="bg-success text-success-foreground">Predictive Analytics</Badge>
               <Badge className="bg-coral text-coral-foreground">Patient-Centric</Badge>
             </div>
-            <Button variant="hero" size="lg">
-              <Award className="w-5 h-5 mr-2" />
-              Hackathon Project 2024
-            </Button>
           </div>
           
           <div className="space-y-6">
@@ -209,7 +205,7 @@ const About = () => {
         <Lightbulb className="w-12 h-12 text-primary mx-auto mb-4" />
         <h2 className="text-2xl font-bold text-foreground mb-4">Innovation & Impact</h2>
         <p className="text-muted-foreground max-w-3xl mx-auto mb-6">
-          CarePredict represents a breakthrough in healthcare technology, combining the latest advances 
+          MediPredict represents a breakthrough in healthcare technology, combining the latest advances 
           in artificial intelligence with deep clinical expertise. Our platform has the potential to 
           reduce hospital readmissions by 35%, improve patient outcomes, and lower healthcare costs 
           through early intervention and personalized care strategies.
