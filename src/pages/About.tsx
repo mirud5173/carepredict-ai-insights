@@ -98,7 +98,7 @@ const About = () => {
             <h2 className="text-2xl font-bold text-foreground mb-4">Our Mission</h2>
             <p className="text-muted-foreground mb-6">
               MediPredict is an innovative AI Risk Engine designed to transform chronic care management. 
-              Built for the Healthcare Innovation Hackathon 2024, our platform leverages cutting-edge 
+              Built for the Hackwell Hackathon 2025, our platform leverages cutting-edge 
               machine learning to predict patient risks and provide actionable insights for both 
               clinicians and patients.
             </p>
@@ -120,11 +120,12 @@ const About = () => {
                 <p className="text-2xl font-bold">30+</p>
                 <p className="text-sm opacity-90">Risk Factors</p>
               </div>
-              <div className="text-center p-4 bg-gradient-success rounded-xl text-white">
+              <div className="text-center p-4 bg-gradient-to-r from-green-500 to-emerald-600 rounded-xl text-white">
                 <p className="text-2xl font-bold">24/7</p>
                 <p className="text-sm opacity-90">Monitoring</p>
               </div>
-              <div className="text-center p-4 bg-gradient-coral rounded-xl text-white">
+              
+              <div className="text-center p-4 bg-gradient-to-r from-pink-500 to-rose-600 rounded-xl text-white">
                 <p className="text-2xl font-bold">3</p>
                 <p className="text-sm opacity-90">Disease Types</p>
               </div>
