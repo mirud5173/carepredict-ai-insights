@@ -38,14 +38,14 @@ const Index = () => {
       title: "Predictive Analytics",
       description:
         "90-day forecasting enables proactive intervention and personalized care plans.",
-      color: "bg-gradient-success"
+      color: "bg-gradient-primary"
     },
     {
       icon: Shield,
       title: "Clinical Decision Support",
       description:
         "Evidence-based recommendations help clinicians make informed treatment decisions.",
-      color: "bg-gradient-coral"
+      color: "bg-gradient-secondary"
     }
   ];
 
