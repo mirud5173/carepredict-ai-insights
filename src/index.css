@@ -8,7 +8,7 @@
 @layer base {
   :root {
     /* Core Healthcare Colors */
-    --background: 248 252 255;
+    --background: 210 40% 98%; /* calm light blue-grey, Tailwind-friendly hsl */
     --foreground: 215 28% 17%;
 
     --card: 0 0% 100%;
@@ -38,7 +38,7 @@
     --success-foreground: 0 0% 100%;
     --success-light: 160 84% 50%;
 
-    /* Warning Yellow */
+    /* Warning Yellow (chips only, not bg) */
     --warning: 48 96% 53%;
     --warning-foreground: 28 35% 15%;
     --warning-light: 48 96% 65%;
@@ -78,19 +78,12 @@
     --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -170,7 +163,7 @@
   }
 
   .risk-medium {
-    @apply bg-warning text-warning-foreground;
+    @apply bg-warning text-warning-foreground; /* yellow only here */
   }
 
   .risk-high {
@@ -268,9 +261,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #ffffff;
+  background-color: hsl(var(--background)); /* use your background variable */
   overscroll-behavior: none;
-  -webkit-tap-highlight-color: transparent; /* or scoped version */
+  -webkit-tap-highlight-color: transparent;
 }
-
-
