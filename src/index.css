@@ -267,12 +267,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* or your preferred color */
-  overscroll-behavior: none; /* prevents yellow flash on scroll */
   height: 100%;
+  background-color: #ffffff;
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent; /* or scoped version */
 }
-/*background-color*/
-* {
-  -webkit-tap-highlight-color: rgba(0,0,0,0.05); /* subtle gray */
-}
+
 
