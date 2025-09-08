@@ -268,7 +268,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: 248 252 255;
+  background-color: #ffffff;
   overscroll-behavior: none;
   -webkit-tap-highlight-color: transparent; /* or scoped version */
 }
