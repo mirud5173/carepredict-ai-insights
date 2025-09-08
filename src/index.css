@@ -271,3 +271,8 @@ html, body {
   overscroll-behavior: none; /* prevents yellow flash on scroll */
   height: 100%;
 }
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0.05); /* subtle gray */
+}
+
