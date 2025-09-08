@@ -28,7 +28,7 @@ const Dashboard = () => {
     riskLevel: "high" as const,
     confidence: 93,
     nextAppointment: "2024-01-15",
-    conditions: ["Type 2 Diabetes", "Hypertension", "Heart Disease"]
+    conditions: ["Type 2 Diabetes", "Hypertension", "High Blood Pressure"]
   };
 
   const vitals = [
@@ -112,7 +112,7 @@ const Dashboard = () => {
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8">
         <div>
           <h1 className="text-3xl font-bold text-foreground mb-2">Patient Dashboard</h1>
-          <p className="text-muted-foreground">AI-powered risk assessment and monitoring</p>
+          <p className="text-muted-foreground">AI-powered health risk assessment and monitoring</p>
         </div>
         
         <div className="flex items-center space-x-4 mt-4 sm:mt-0">
@@ -178,7 +178,7 @@ const Dashboard = () => {
           <div className="text-center">
             <div className="mb-4">
               <Brain className="w-12 h-12 mx-auto text-primary mb-2" />
-              <h3 className="text-lg font-semibold">AI Risk Assessment</h3>
+              <h3 className="text-lg font-semibold">AI Health Risk Assessment</h3>
             </div>
             
             <div className="mb-4">
