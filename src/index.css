@@ -169,9 +169,9 @@
     background: var(--gradient-success);
   }
 
-  /*.risk-medium {
+  .risk-medium {
     @apply bg-warning text-warning-foreground;
-  }*/
+  }
 
   .risk-high {
     @apply bg-coral text-coral-foreground;
