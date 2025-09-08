@@ -28,7 +28,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <Brain className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-foreground">CarePredict</h1>
+                <h1 className="text-xl font-bold text-foreground">MediPredict</h1>
                 <p className="text-xs text-muted-foreground">AI Risk Engine</p>
               </div>
             </Link>
@@ -108,7 +108,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 CarePredict AI Risk Engine. Built for better healthcare outcomes.
+              © 2025 MediPredict AI Risk Engine. Built for better healthcare outcomes.
             </p>
           </div>
         </div>
