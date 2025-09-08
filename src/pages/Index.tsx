@@ -22,28 +22,31 @@ const Index = () => {
     {
       icon: Brain,
       title: "AI-Powered Risk Assessment",
-      description: "Advanced machine learning algorithms analyze patient data to predict health risks with 90% accuracy.",
-      color: "bg-gradient-primary"
+      description:
+        "Advanced machine learning algorithms analyze patient data to predict health risks with 90% accuracy.",
+      color: "bg-gradient-to-r from-blue-500 to-indigo-600",
     },
     {
       icon: Heart,
       title: "Chronic Care Management",
-      description: "Specialized monitoring for diabetes, hypertension, and cardiovascular conditions.",
-      color: "bg-gradient-secondary"
+      description:
+        "Specialized monitoring for diabetes, hypertension, and cardiovascular conditions.",
+      color: "bg-gradient-to-r from-pink-500 to-rose-600",
     },
     {
       icon: TrendingUp,
       title: "Predictive Analytics",
-      description: "90-day forecasting enables proactive intervention and personalized care plans.",
-      color: "bg-gradient-success"
+      description:
+        "90-day forecasting enables proactive intervention and personalized care plans.",
+      color: "bg-gradient-to-r from-green-500 to-emerald-600", // replaces bg-gradient-success
     },
     {
       icon: Shield,
       title: "Clinical Decision Support",
-      description: "Evidence-based recommendations help clinicians make informed treatment decisions.",
-      color: "bg-gradient-coral"
-    }
-
+      description:
+        "Evidence-based recommendations help clinicians make informed treatment decisions.",
+      color: "bg-gradient-to-r from-orange-400 to-red-500", // replaces bg-gradient-coral
+    },
   ];
 
   const benefits = [
