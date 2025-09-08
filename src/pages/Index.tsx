@@ -13,7 +13,7 @@ import {
   ArrowRight,
   Play,
   BarChart3,
-  Stethoscope
+  Stethoscope,
 } from "lucide-react";
 import heroImage from "@/assets/hero-healthcare.jpg";
 
@@ -24,29 +24,29 @@ const Index = () => {
       title: "AI-Powered Risk Assessment",
       description:
         "Advanced machine learning algorithms analyze patient data to predict health risks with 90% accuracy.",
-      color: "bg-gradient-primary"
+      color: "bg-gradient-primary",
     },
     {
       icon: Heart,
       title: "Chronic Care Management",
       description:
         "Specialized monitoring for diabetes, hypertension, and cardiovascular conditions.",
-      color: "bg-gradient-secondary"
+      color: "bg-gradient-secondary",
     },
     {
       icon: TrendingUp,
       title: "Predictive Analytics",
       description:
         "90-day forecasting enables proactive intervention and personalized care plans.",
-      color: "bg-gradient-primary"
+      color: "bg-gradient-success",
     },
     {
       icon: Shield,
       title: "Clinical Decision Support",
       description:
         "Evidence-based recommendations help clinicians make informed treatment decisions.",
-      color: "bg-gradient-secondary"
-    }
+      color: "bg-gradient-coral",
+    },
   ];
 
   const benefits = [
@@ -55,14 +55,14 @@ const Index = () => {
     "Personalized treatment recommendations",
     "Improved patient engagement",
     "Lower healthcare costs",
-    "Better clinical outcomes"
+    "Better clinical outcomes",
   ];
 
   const stats = [
     { number: "90%", label: "Prediction Accuracy", icon: BarChart3 },
     { number: "35%", label: "Reduced Readmissions", icon: TrendingUp },
     { number: "24/7", label: "Continuous Monitoring", icon: Activity },
-    { number: "30+", label: "Risk Factors Analyzed", icon: Stethoscope }
+    { number: "30+", label: "Risk Factors Analyzed", icon: Stethoscope },
   ];
 
   return (
@@ -89,17 +89,14 @@ const Index = () => {
                   AI Risk Engine for Chronic Care
                 </span>
               </h1>
-
               <p className="text-xl lg:text-2xl text-white/90 mb-8 animate-fade-up max-w-2xl">
                 Predict, Prevent, Personalize Chronic Care with AI
               </p>
-
               <p className="text-lg text-white/80 mb-8 animate-fade-up max-w-xl">
                 Revolutionary AI platform that transforms chronic disease
                 management through predictive analytics, personalized insights,
                 and proactive care coordination.
               </p>
-
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-up">
                 <Link to="/dashboard">
                   <Button variant="hero" size="xl" className="w-full sm:w-auto">
@@ -133,9 +130,7 @@ const Index = () => {
                     <p className="text-2xl lg:text-3xl font-bold text-foreground mb-1">
                       {stat.number}
                     </p>
-                    <p className="text-sm text-muted-foreground">
-                      {stat.label}
-                    </p>
+                    <p className="text-sm text-muted-foreground">{stat.label}</p>
                   </Card>
                 );
               })}
@@ -197,7 +192,6 @@ const Index = () => {
                 improvements in chronic care management, helping healthcare
                 providers achieve better outcomes while reducing costs.
               </p>
-
               <div className="space-y-4">
                 {benefits.map((benefit, index) => (
                   <div key={index} className="flex items-center space-x-3">
