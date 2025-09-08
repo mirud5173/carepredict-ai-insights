@@ -35,13 +35,13 @@ const Index = () => {
       icon: TrendingUp,
       title: "Predictive Analytics",
       description: "90-day forecasting enables proactive intervention and personalized care plans.",
-      color: "bg-gradient-success"
+      color: "bg-gradient-to-r from-green-500 to-emerald-600" 
     },
     {
       icon: Shield,
       title: "Clinical Decision Support",
       description: "Evidence-based recommendations help clinicians make informed treatment decisions.",
-      color: "bg-gradient-coral"
+      color: "bg-gradient-to-r from-pink-500 to-rose-600" 
     }
   ];
 
@@ -100,7 +100,7 @@ const Index = () => {
                 <Link to="/dashboard">
                   <Button variant="hero" size="xl" className="w-full sm:w-auto">
                     <Play className="w-5 h-5 mr-2" />
-                    Try Demo
+                    View Sample Dashboard
                   </Button>
                 </Link>
                 <Link to="/about">
