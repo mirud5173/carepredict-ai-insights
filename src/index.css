@@ -263,3 +263,11 @@
     box-shadow: 0 0 30px hsl(var(--primary) / 0.4);
   }
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* or your preferred color */
+  overscroll-behavior: none; /* prevents yellow flash on scroll */
+  height: 100%;
+}
