@@ -18,29 +18,29 @@ const About = () => {
   const teamMembers = [
     {
       name: "Suhani Panda",
-      role: "AI Research Lead",
-      bio: "PhD in Machine Learning with 8+ years in healthcare AI",
+      role: "ML Enthusiast",
+      bio: "Pre-final year student, B.Tech in CSE(AIML), VIT Chennai",
       linkedin: "#",
       github: "#"
     },
     {
       name: "Mirudhula",
       role: "Full-Stack Developer",
-      bio: "Software engineer specializing in healthcare applications",
-      linkedin: "#",
-      github: "#"
+      bio: "Pre-final year student, B.Tech in CSE(AIML), VIT Chennai",
+      linkedin: "https://www.linkedin.com/in/mirudhula-54aa23289/",
+      github: "https://github.com/mirud5173"
     },
     {
       name: "Ponn Oviyaa S",
-      role: "Clinical Advisor",
-      bio: "Cardiologist with expertise in chronic disease management",
+      role: "Research Advisor",
+      bio: "Pre-final year student, B.Tech in CSE(CPS), VIT Chennai",
       linkedin: "#",
       github: "#"
     },
     {
       name: "Lasyasri Pabbisetty",
       role: "UX/UI Designer",
-      bio: "Design specialist focused on healthcare user experiences",
+      bio: "Pre-final year student, B.Tech in CSE(AIML), VIT Chennai",
       linkedin: "#",
       github: "#"
     }
